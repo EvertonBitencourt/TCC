@@ -15,32 +15,31 @@
 		<h1>
 			<a>myForm</a>
 		</h1>
-		<form th:object="${usuario}" id="form_1099345" class="appnitro" method="post" action=""
-			th:action="@{/salva}">
+		<form id="form_1099345" class="appnitro" method="post" action="">
 			<div class="form_description">
 				<h2>myForm</h2>
 				<p>This is your form description. Click here to edit.</p>
 			</div>
 			<ul>
 
-				<input id="element_0" name="element_0" type="hidden" value="" th:field="*{id}"/>
+				<input id="element_0" name="element_0" type="hidden" value="" />
 
-				<li id="li_1"><label class="description" for="element_1" >Name
+				<li id="li_1"><label class="description" for="element_1">Name
 				</label>
 					<div>
-						<input id="element_1" name="element_1" class="element text medium"  th:field="*{nome}"
+						<input id="element_1" name="element_1" class="element text medium"
 							type="text" maxlength="255" value="" />
 					</div></li>
 				<li id="li_2"><label class="description" for="element_2">Email
 				</label>
 					<div>
-						<input id="element_2" name="element_2" class="element text medium"  th:field="*{email}"
+						<input id="element_2" name="element_2" class="element text medium"
 							type="text" maxlength="255" value="" />
 					</div></li>
 				<li id="li_3"><label class="description" for="element_3">Description
 				</label>
 					<div>
-						<textarea id="element_3" name="element_3"  th:field="*{descricao}"
+						<textarea id="element_3" name="element_3"
 							class="element textarea medium"></textarea>
 					</div></li>
 
